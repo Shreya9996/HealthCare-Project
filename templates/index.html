@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Healthcare Outcome Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h2>Healthcare Outcome Prediction</h2>
+
+    <form method="POST">
+        <input type="number" name="age" placeholder="Age" required>
+
+        <select name="gender">
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+
+        <input type="number" step="0.1" name="bmi" placeholder="BMI" required>
+        <input type="number" name="blood_pressure" placeholder="Blood Pressure" required>
+        <input type="number" name="sugar_level" placeholder="Sugar Level" required>
+        <input type="number" name="cholesterol" placeholder="Cholesterol" required>
+
+        <select name="smoking">
+            <option>Yes</option>
+            <option>No</option>
+        </select>
+
+        <select name="alcohol">
+            <option>Yes</option>
+            <option>No</option>
+        </select>
+
+        <input type="number" name="hospital_days" placeholder="Hospital Days" required>
+
+        <select name="treatment_type">
+            <option>Surgery</option>
+            <option>Medication</option>
+            <option>Therapy</option>
+        </select>
+
+        <input type="number" name="follow_up_visits" placeholder="Follow-up Visits" required>
+
+        <button type="submit">Predict Outcome</button>
+    </form>
+
+    {% if result %}
+        <div class="result">{{ result }}</div>
+    {% endif %}
+</div>
+
+</body>
+</html>
