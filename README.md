@@ -85,12 +85,21 @@ Deploy with Docker
 Add user authentication system
 Visualization dashboard for insights
 
-🤝 Contributing
+ # 🤝 Contributing
 
 Contributions are welcome!
 Feel free to fork this repository and submit a pull request.
 
-📄 License
+ # 📄 License
 
 This project is licensed under the MIT License.
 Live URL: [Click Here] :  https://healthcare-project-4-l8nr.onrender.com/
+
+
+ # 📬 Contact & Support
+
+For queries, feature requests, or issues, reach out at:
+
+📧 Email: shreyapatil9681@gmail.com
+
+🔥 Star this repo if you find it useful! 🚀
