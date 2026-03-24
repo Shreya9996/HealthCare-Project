@@ -1,4 +1,5 @@
 🏥 Healthcare Outcome Prediction using Machine Learning
+
 📌 Project Overview
 
 Healthcare Outcome Prediction is a machine learning–based web application that predicts a patient’s health outcome using medical and demographic information.
@@ -17,27 +18,33 @@ To predict the health outcome of a patient (such as recovery risk or treatment r
 🔗 https://healthcare-project-4-l8n
 
 ✨ Features
+
 🧠 Machine Learning-based prediction system
 📊 Input patient medical details
 ⚡ Instant prediction results
 🎨 Clean and responsive UI
 🌙 Dark mode support
 📱 Mobile-friendly design
+
 🛠️ Technology Stack
 🔹 Frontend
 HTML5
 CSS3
 JavaScript
+
 🔹 Backend
 Python
 Flask
+
 🔹 Machine Learning
 Scikit-learn
 Pandas
 NumPy
+
 🔹 Deployment
 Render
-Gunicorn
+
+
 📂 Project Structure
 HealthCare-Project/
 │── static/                         # CSS, JS, images  
@@ -46,34 +53,38 @@ HealthCare-Project/
 │── healthcare_data_science_dataset.csv  
 │── requirements.txt  
 └── README.md  
+
+
 ⚙️ How It Works
 User enters patient details (age, BMI, etc.)
 Data is sent to the Flask backend
 ML model processes the input
 Prediction result is displayed instantly
+
 🚀 Getting Started
 🔧 Prerequisites
 Python 3.x
 pip
+
 📥 Installation
-Clone the repository:
-git clone https://github.com/yourusername/HealthCare-Project.git
+
 cd HealthCare-Project
 Install dependencies:
 pip install -r requirements.txt
 Run the application:
 python app.py
-Open in browser:
-http://127.0.0.1:5000/
+
 📊 Dataset
 healthcare_data_science_dataset.csv
 Contains patient medical and demographic data
+
 📈 Future Enhancements
 Improve model accuracy
 Add more healthcare datasets
 Deploy with Docker
 Add user authentication system
 Visualization dashboard for insights
+
 🤝 Contributing
 
 Contributions are welcome!
